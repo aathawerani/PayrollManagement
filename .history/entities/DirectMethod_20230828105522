@@ -1,0 +1,5 @@
+from entities import paymentMethod
+
+class directMethod(paymentMethod):
+    def dispatch():
+        pass

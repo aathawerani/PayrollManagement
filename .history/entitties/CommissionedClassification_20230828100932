@@ -1,0 +1,6 @@
+import payClassification from PayClassification
+
+class CommissionedClassification(payClassification):
+    @abstractmethod
+    def CalculatePay(self):
+        pass

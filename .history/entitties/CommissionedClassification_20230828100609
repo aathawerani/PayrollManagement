@@ -1,0 +1,5 @@
+
+class CommissionedClassification:
+    @abstractmethod
+    def CalculatePay(self):
+        pass

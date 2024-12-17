@@ -1,0 +1,7 @@
+from abc import ABC, abstractmethod
+
+class PayClassification:
+    @abstractmethod
+    def CalculatePay(self):
+        pass
+ 
